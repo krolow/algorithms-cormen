@@ -1,0 +1,16 @@
+# go:
+#   image: golang:1.4-onbuild
+#   volumes:
+#     - .:/usr/src/myapp
+# rust:
+# lua:
+#   image: abaez:5.1
+#   volumes:
+# 	- .:/
+javascript:
+  image: node:4.2.1-onbuild
+  volumes:
+    - .:/usr/src/app
+  dns:
+    - 189.4.64.83
+    - 189.4.64.88
