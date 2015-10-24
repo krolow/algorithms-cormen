@@ -1,7 +1,7 @@
-# go:
-#   image: golang:1.4-onbuild
-#   volumes:
-#     - .:/usr/src/myapp
+golang:
+  image: golang:1.4-onbuild
+  volumes:
+    - .:/go/src/app
 # rust:
 # lua:
 #   image: abaez:5.1
